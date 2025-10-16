@@ -16,5 +16,6 @@
 >Essayez de calculer tout à la main (avec la méthode de votre choix, idéalement essayez d’utiliser les deux !), puis vérifiez vos calculs avec une calculatrice en ligne [exemple](https://www.subnet-calculator.com/cidr.php) ! »
 > #
  - Adresses IP : 192.168.13.67/24
+
 Sur la **Méthode du nombre magique**, voici la solution:
 
