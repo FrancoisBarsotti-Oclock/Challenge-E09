@@ -12,6 +12,7 @@
 >      +	172.16.27.32/23
 >      +	10.7.5.1 – 255.255.128.0
 >      +	10.42.0.82/12
+>        
 >Essayez de calculer tout à la main (avec la méthode de votre choix, idéalement essayez d’utiliser les deux !), puis vérifiez vos calculs avec une calculatrice en ligne [exemple](https://www.subnet-calculator.com/cidr.php) ! »
 > #
 > 
