@@ -68,4 +68,24 @@ Alors,
 - [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
 - [x] Plage d'adresses disponibles: 10.0.0.1 - 10.255.255.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 ##
+Sur la Méthode ET/OU logique je n'arrive pas à tout résoudre, mais uniquement faire la conversion décimal/binaire du Masque:
+- Adresses IP : 192.168.13.67/24
+- [x] Masque décimal:    255.      255.      255.       0
+- [x] Masque binaire: 1111 1111.1111 1111.1111 1111.0000 0000
+#
+- Adresses IP : 172.16.0.1
+- [x] Masque décimal:    255.      255.      255.       0
+- [x] Masque binaire: 1111 1111.1111 1111.1111 1111.0000 0000
+#
+- Adresses IP : 172.16.27.32/23
+- [x] Masque décimal:    255.      255.      254.       0
+- [x] Masque binaire: 1111 1111.1111 1111.1111 1110.0000 0000
+#
+- Adresses IP : 10.42.0.82 – 255.255.128.0
+- [x] Masque décimal:    255.       0.        0.        0
+- [x] Masque binaire: 1111 1111.0000 0000.0000 0000.0000 0000
+#
+- Adresses IP : 10.42.0.82/12
+- [x] Masque décimal:    255.       0.        0.        0
+- [x] Masque binaire: 1111 1111.0000 0000.0000 0000.0000 0000
 
