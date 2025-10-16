@@ -32,6 +32,7 @@ Alors,
 - [x] Masque:       255.255.255.0 (on peut reconnaître l'octet significatif comme le premier qui n'est pas 255)
 - [x] Nombre magique: 256-0 = 256
 - [x] Multiples: 0,256...
+
 Alors,
 - [x] Adresse réseau (AR):    172.16.0.0 
 - [x] Adresse broadcast (AB): 172.16.0.255
@@ -42,6 +43,7 @@ Alors,
 - [x] Masque:       255.255.254.0 (en sachant qu'en binaire le "1111 1110" du troisième octet = 254)
 - [x] Nombre magique: 256-254 = 2
 - [x] Multiples: 0,2,4,6,...,26,28,30...
+
 Alors,
 - [x] Adresse réseau (AR):    172.16.26.0
 - [x] Adresse broadcast (AB): 172.16.27.255
@@ -52,6 +54,7 @@ Alors,
 - [x] Masque:       255.0.0.0 (par défaut pour les IP de Classe A, car il y a 24 bits libres pour les hôtes)
 - [x] Nombre magique: 256-0 = 256
 - [x] Multiples: 0,2,4,6,...,256...
+
 Alors,
 - [x] Adresse réseau (AR):    10.0.0.0
 - [x] Adresse broadcast (AB): 10.255.255.255
@@ -62,6 +65,7 @@ Alors,
 - [x] Masque:       255.0.0.0 (par défaut pour les IP de Classe A, car il y a 24 bits libres pour les hôtes)
 - [x] Nombre magique: 256-0 = 256
 - [x] Multiples: 0,2,4,6,...,256...
+
 Alors,
 - [x] Adresse réseau (AR):    10.0.0.0
 - [x] Adresse broadcast (AB): 10.255.255.255
