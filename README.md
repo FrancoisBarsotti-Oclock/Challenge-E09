@@ -25,7 +25,7 @@ Sur la **Méthode du nombre magique**, voici les solutions:
 Alors,
 - [x] Adresse réseau (AR):    192.168.13.0
 - [x] Adresse broadcast (AB): 192.168.13.255
-- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Nombre d'addresses utilisables par des machines: 256-2 = 254 (car une est réservée pour l'AR et l'autre pour l'AB)
 - [x] Plage d'adresses disponibles: 192.168.13.1 - 192.168.13.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 #
 ## - Adresse IP: 172.16.0.1 – 255.255.255.0
@@ -35,7 +35,7 @@ Alors,
 Alors,
 - [x] Adresse réseau (AR):    172.16.0.0 
 - [x] Adresse broadcast (AB): 172.16.0.255
-- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Nombre d'addresses utilisables par des machines: 256-2 = 254 (car une est réservée pour l'AR et l'autre pour l'AB)
 - [x] Plage d'adresses disponibles: 172.16.0.1 - 172.16.0.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 #
 ## - Adresses IP: 172.16.27.32/23
@@ -45,7 +45,7 @@ Alors,
 Alors,
 - [x] Adresse réseau (AR):    172.16.26.0
 - [x] Adresse broadcast (AB): 172.16.27.255
-- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Nombre d'addresses utilisables par des machines: 256-2 = 254 (car une est réservée pour l'AR et l'autre pour l'AB)
 - [x] Plage d'adresses disponibles: 172.16.26.1 - 172.16.27.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 #
 ## - Adresses IP: 10.7.5.1 (Classe A ou < 126)
@@ -55,7 +55,7 @@ Alors,
 Alors,
 - [x] Adresse réseau (AR):    10.0.0.0
 - [x] Adresse broadcast (AB): 10.255.255.255
-- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Nombre d'addresses utilisables par des machines: 256-2 = 254 (car une est réservée pour l'AR et l'autre pour l'AB)
 - [x] Plage d'adresses disponibles: 10.0.0.1 - 10.255.255.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 #
 ## - Adresses IP : 10.42.0.82/12 (encore Classe A ou < 126)
@@ -65,7 +65,7 @@ Alors,
 Alors,
 - [x] Adresse réseau (AR):    10.0.0.0
 - [x] Adresse broadcast (AB): 10.255.255.255
-- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Nombre d'addresses utilisables par des machines: 256-2 = 254 (car une est réservée pour l'AR et l'autre pour l'AB)
 - [x] Plage d'adresses disponibles: 10.0.0.1 - 10.255.255.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 ##
 Sur la **Méthode ET/OU logique** je n'arrive pas à tout résoudre, mais uniquement faire la conversion décimal/binaire du Masque:
