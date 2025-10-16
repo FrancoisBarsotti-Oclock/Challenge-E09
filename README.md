@@ -27,7 +27,7 @@ Alors,
 - [x] Adresse broadcast (AB): 192.168.13.255
 - [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
 - [x] Plage d'adresses disponibles: 192.168.13.1 - 192.168.13.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
-
+#
 - Adresse IP: 172.16.0.1 – 255.255.255.0
 - [x] Masque:       255.255.255.0 (on peut reconnaître l'octet significatif comme le premier qui n'est pas 255)
 - [x] Nombre magique: 256-0 = 256
