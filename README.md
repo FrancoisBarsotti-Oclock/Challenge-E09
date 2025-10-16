@@ -17,7 +17,7 @@
 > #
  
 Sur la **Méthode du nombre magique**, voici les solutions:
-- Adresses IP: 192.168.13.67/24
+## - Adresses IP: 192.168.13.67/24
 - [x] Masque:       255.255.255.0 (on peut reconnaître l'octet significatif comme le premier qui n'est pas 255)
 - [x] Nombre magique: 256-0 = 256
 - [x] Multiples: 0,256...
@@ -68,7 +68,7 @@ Alors,
 - [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
 - [x] Plage d'adresses disponibles: 10.0.0.1 - 10.255.255.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 ##
-Sur la Méthode ET/OU logique je n'arrive pas à tout résoudre, mais uniquement faire la conversion décimal/binaire du Masque:
+Sur la **Méthode ET/OU logique** je n'arrive pas à tout résoudre, mais uniquement faire la conversion décimal/binaire du Masque:
 - Adresses IP : 192.168.13.67/24
 - [x] Masque décimal:    255.      255.      255.       0
 - [x] Masque binaire: 1111 1111.1111 1111.1111 1111.0000 0000
