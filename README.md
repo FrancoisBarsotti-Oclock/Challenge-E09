@@ -15,10 +15,9 @@
 >        
 >Essayez de calculer tout à la main (avec la méthode de votre choix, idéalement essayez d’utiliser les deux !), puis vérifiez vos calculs avec une calculatrice en ligne [exemple](https://www.subnet-calculator.com/cidr.php) ! »
 > #
- - Adresses IP : 192.168.13.67/24
-
-Sur la **Méthode du nombre magique**, voici la solution:
-Adresses IP : 192.168.13.67/24
+ 
+Sur la **Méthode du nombre magique**, voici les solutions:
+- Adresses IP : 192.168.13.67/24
 - [x] Masque:       255.255.255.0 (on peut reconnaître l'octet significatif comme le premier qui n'est pas 255)
 - [x] Nombre magique: 256-0 = 256
 - [x] Multiples: 0,256...
