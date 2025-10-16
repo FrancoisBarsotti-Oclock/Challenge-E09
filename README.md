@@ -17,7 +17,7 @@
 > #
  
 Sur la **Méthode du nombre magique**, voici les solutions:
-- Adresses IP : 192.168.13.67/24
+- Adresses IP: 192.168.13.67/24
 - [x] Masque:       255.255.255.0 (on peut reconnaître l'octet significatif comme le premier qui n'est pas 255)
 - [x] Nombre magique: 256-0 = 256
 - [x] Multiples: 0,256...
@@ -27,4 +27,44 @@ Alors,
 - [x] Adresse broadcast (AB): 192.168.13.255
 - [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
 - [x] Plage d'adresses disponibles: 192.168.13.1 - 192.168.13.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
+
+- Adresse IP: 172.16.0.1 – 255.255.255.0
+- [x] Masque:       255.255.255.0 (on peut reconnaître l'octet significatif comme le premier qui n'est pas 255)
+- [x] Nombre magique: 256-0 = 256
+- [x] Multiples: 0,256...
+Alors,
+- [x] Adresse réseau (AR):    172.16.0.0 
+- [x] Adresse broadcast (AB): 172.16.0.255
+- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Plage d'adresses disponibles: 172.16.0.1 - 172.16.0.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
+
+- Adresses IP: 172.16.27.32/23
+- [x] Masque:       255.255.254.0 (en sachant qu'en binaire le "1111 1110" du troisième octet = 254)
+- [x] Nombre magique: 256-254 = 2
+- [x] Multiples: 0,2,4,6,...,26,28,30...
+Alors,
+- [x] Adresse réseau (AR):    172.16.26.0
+- [x] Adresse broadcast (AB): 172.16.27.255
+- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Plage d'adresses disponibles: 172.16.26.1 - 172.16.27.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
+
+- Adresses IP: 10.7.5.1 (Classe A ou < 126)
+- [x] Masque:       255.0.0.0 (par défaut pour les IP de Classe A, car il y a 24 bits libres pour les hôtes)
+- [x] Nombre magique: 256-0 = 256
+- [x] Multiples: 0,2,4,6,...,256...
+Alors,
+- [x] Adresse réseau (AR):    10.0.0.0
+- [x] Adresse broadcast (AB): 10.255.255.255
+- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Plage d'adresses disponibles: 10.0.0.1 - 10.255.255.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
+
+- Adresses IP : 10.42.0.82/12 (encore Classe A ou < 126)
+- [x] Masque:       255.0.0.0 (par défaut pour les IP de Classe A, car il y a 24 bits libres pour les hôtes)
+- [x] Nombre magique: 256-0 = 256
+- [x] Multiples: 0,2,4,6,...,256...
+Alors,
+- [x] Adresse réseau (AR):    10.0.0.0
+- [x] Adresse broadcast (AB): 10.255.255.255
+- [x] Nombre d'addresses utilisables par des machines:256-2 = 254 car une est réservée pour l'AR et l'autre pour l'AB
+- [x] Plage d'adresses disponibles: 10.0.0.1 - 10.255.255.254 (0 sur le dernier octet a été pris par l'AR et 255 sur le dernier octet a été pris par l'AB)
 
